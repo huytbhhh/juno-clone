@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './header'
+import MyComponent from './fetch'
 
 
 const Admin = () => {
     return (
         <div>
-            <h1>Page </h1>
+            <Header/>
+            <MyComponent/>
         </div>
     )
 }

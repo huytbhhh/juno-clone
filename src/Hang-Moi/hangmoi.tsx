@@ -4,7 +4,7 @@ import React from 'react'
 const Hangmoi = () => {
     return (
         <div>
-            <h1>Hàng Mới </h1>
+            <h1>  HÀNG MỚI  CỦA TUẤN  </h1>
         </div>
     )
 }

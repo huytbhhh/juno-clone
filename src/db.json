@@ -1,0 +1,51 @@
+{
+  "products": [
+   {
+    "prouct_sale": [
+      {
+        "id": 1,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "800.000",
+        "p": "Túi Sách Cá Sấu"
+      }
+    ],
+    "product_new": [
+      {
+        "id": 2,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "800.000",
+        "p": "Túi Sách Cá Sấu"
+      },
+      {
+        "id": 3,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "1.745.000",
+        "p": "Túi Sách Nhỏ"
+      },
+      {
+        "id": 4,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "666.000",
+        "p": "Túi Sách To"
+      },
+      {
+        "id": 5,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "745.000",
+        "p": "Túi Sách Nhỏ"
+      }
+    ]
+   }
+   
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

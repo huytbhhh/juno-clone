@@ -4,7 +4,7 @@ import Hangmoi from './Hang-Moi/hangmoi'
 import Sanpham from './SanPham/sanpham'
 export const routers = createBrowserRouter([
   {
-    path: 'admin',
+    path: '',
     element: <Admin/>
   },
   {
