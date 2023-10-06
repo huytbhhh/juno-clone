@@ -1,20 +1,12 @@
-type Props={data: any } 
-
-const Product_sp = ({data}: Props) =>{
+const Product_sp = ({data}: any) =>{
     return (
-    <div >
-
-
-        
-
-        <li key={data.id}>
+    <div className='flex flex-col'>
+        <li className='flex' key={data.id}>
             <img src={data.img} />
 
-            <span>{data.p}</span> 
+            <span>{data.price}</span> 
 
-            <span>{data.price}</span>
-
-
+            <span>{data.p}</span>
 
           </li>
           </div>

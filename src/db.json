@@ -1,9 +1,27 @@
 {
   "products": [
    {
-    "prouct_sale": [
+    "product_sale": [
       {
         "id": 1,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "800.000",
+        "p": "Túi Sách Cá Sấu"
+      },
+      {
+        "id": 8,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "800.000",
+        "p": "Túi Sách Cá Sấu"
+      },
+      {
+        "id": 7,
+        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+        "price": "800.000",
+        "p": "Túi Sách Cá Sấu"
+      },
+      {
+        "id": 6,
         "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
         "price": "800.000",
         "p": "Túi Sách Cá Sấu"

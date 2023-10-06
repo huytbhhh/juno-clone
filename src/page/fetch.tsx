@@ -4,7 +4,7 @@ import Product_sp from './product/product';
 // Khai báo kiểu dữ liệu 
 interface IProduct {
   products: {
-    prouct_sale: IProductSale[];
+    product_sale: IProductSale[];
     product_new: IProductNew[];
   }[];
 }
@@ -51,16 +51,39 @@ const ProductList: React.FC = () => {
 
   return (
     <div>
-      {/* {products.map((productData, index) => (
+      
+      {products.map((productData, index) => (
         <div key={index}>
-          <h2>Hàng mới về</h2>
-          <ul className='grid grid-cols-4'>
-            {productData.products.product_new.map((data) => (
+          {/* <div className='text-center font-Menlo my-8'>
+            <h2 className=' text-2xl mb-3'>Hàng mới về</h2>
+          <p>Các sản phẩm bắt nhịp quốc tế,nàng thời thượng không lên bỏ lỡ </p>
+          </div> */}
+          
+          <ul className='grid grid-cols-4 '>
+            
+            {productData.product_new.map((data) => (
               <Product_sp data={data} key={data.id} />
             ))}
+
           </ul>
+
+              <h1 className='text-center'>NHÓM SẢN PHẨM ĐƯỢC QUAN TÂM</h1>
+
+          <ul className='grid grid-cols-4 mt-10'>
+            
+            {productData.product_sale.map((data) => (
+              
+              <Product_sp data={data} key={data.id} />
+            ))}
+            
+
+
+          </ul>
+
+          
         </div>
-      ))} */}
+      ))}
+
     </div>
   );
 };
