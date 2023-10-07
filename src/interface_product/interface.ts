@@ -4,3 +4,15 @@ export default interface Iproduct {
     price: string;
     p: string;
   }
+
+ type Idata = {
+  id : string
+  name : string
+ }
+
+ type Inumber = {
+  id : string
+  name : string
+ }
+
+ type Istring = Idata | Inumber

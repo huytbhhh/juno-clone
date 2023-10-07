@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { getAllDataFooter } from "../../api/page_api/footer.api";
+import Iproduct from "../../interface_product/interface";
 
-const Footer = ({data}: any) =>{
-    const [products, setProducts] = useState([]);
+const Footer = () => {
+    const [products, setProducts] = useState<Iproduct[]>([]);
 
     useEffect(() => {
         const fetProducts = async () => {
@@ -11,7 +12,6 @@ const Footer = ({data}: any) =>{
         }
         fetProducts()
     }, []);
-    console.log(data)
     return (
         <div>
             <div className="text-center mt-20">
@@ -20,28 +20,17 @@ const Footer = ({data}: any) =>{
                 <hr />
                 <p className="text-lg">@juno.vn</p>
             </div>
-
-            
-
-                           
-        <div>
-    <div className='mx-auto mt-8 grid grid-cols-4 mb-[100px] gap-5 text-center ml-20 mr-20 '>
-        {products.map((products)=>{
-                return  <div key={products.id}>
-                <img src={products.img} />
-                <span className="text-lg font-light">{products.p}</span><br />
-                <span>{products.price}</span> <br />
+            <div>
+                <div className='mx-auto mt-8 grid grid-cols-4 mb-[100px] gap-5 text-center ml-20 mr-20 '>
+                    {products.map(({ id, img }: Omit<Iproduct, "price" | "p">) => {
+                        return <div key={id}>
+                            <img src={img} />
+                        </div>
+                    })}
                 </div>
-        })}
-       
-       </div>
-          
-    
-   
+            </div>
         </div>
-<hr />
-        </div>
-        )
-    
+    )
+
 }
 export default Footer

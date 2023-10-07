@@ -1,12 +1,8 @@
 import { useEffect, useState } from 'react';
 import { getAllgoiy } from '../../api/page_api/goiy.api';
-
-
+import Iproduct from '../../interface_product/interface';
 export const Product_goiy = ({ data }: any) => {
-
     const [products, setProducts] = useState([]);
-
-
     useEffect(() => {
         const fetProducts = async () => {
             const { data } = await getAllgoiy ()
@@ -25,7 +21,7 @@ export const Product_goiy = ({ data }: any) => {
             </div>
 
             <div className='mx-auto mt-8 grid grid-cols-4 mb-[100px] gap-5 text-center ml-20 mr-20'>
-                {products.map((products) => {
+                {products.map((products : Iproduct) => {
                     return (
                         <div key={products.id}>
                             <img src={products.img} />

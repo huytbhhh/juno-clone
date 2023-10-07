@@ -17,9 +17,9 @@ export const Footer2 = ({ data }: any) => {
     }, []);
     console.log(data)
     return (
-        <div className=' grid grid-cols-2 gap-5 text-center '>
+        <div className=' flex gap-5 justify-center items-center border-t border-gray-500  text-center '>
  
-            <div>
+            <div className='w-[471px] '>
                
                 <ul>
                     <p>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</p>
@@ -34,13 +34,13 @@ export const Footer2 = ({ data }: any) => {
                 </ul>
             </div>
 
-            <div className='grid grid-cols-2 gap-5 text-center'>
+            <div className='flex gap-5 text-center'>
                 
-                {products.map((products) => {
+                {products.map((products : any) => {
                     return (
-                        <div key={products.id}>
+                        <div className='W-[471px]' key={products.id}>
                             <p>Hệ Thống</p>
-                            <img src={products.img} />
+                            <img className='w-[431px]' src={products.img} />
                             <span className="text-lg font-light">{products.p}</span><br />
                             <span>{products.price}</span> <br />
                         </div>

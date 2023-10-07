@@ -1,16 +1,11 @@
 import { useEffect, useState } from 'react';
 import { getAllSale } from "../../api/page_api/sale.api";
-
-
+import Iproduct from '../../interface_product/interface';
 export const Sale_product = ({ data }: any) => {
-
     const [products, setProducts] = useState([]);
-
-
     useEffect(() => {
         const fetProducts = async () => {
             const { data } = await getAllSale()
-
             setProducts(data)
         }
         fetProducts()
@@ -24,7 +19,7 @@ export const Sale_product = ({ data }: any) => {
             </div>
 
             <div className='mx-auto mt-8 grid grid-cols-3 mb-[100px] gap-5 text-center ml-20 mr-20'>
-                {products.map((products) => {
+                {products.map((products : Iproduct) => {
                     return (
                         <div key={products.id}>
                             <img src={products.img} />

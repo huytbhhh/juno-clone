@@ -1,8 +1,9 @@
+import Iproduct from "../../interface_product/interface"
 import instance from "../root.instance"
 
 export const getAllDataFooter = ()=>{
     const url = "product_footer"
-    return instance.get(url)
+    return instance.get<Iproduct[]>(url)
 }
 
 export const addDataFooter = ()=>{

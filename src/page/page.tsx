@@ -14,18 +14,14 @@ import { Footer2 } from './product/footer2'
 const Admin = () => {
     return (
         <div>
-            
             <Header/>
             <img src={banner1}/>
             <New_product/>
             <Sale_product/>
-            
             <Product_goiy/>
             <Bosutap/>
             <Footer/>
             <Footer2/>
-            
-
         </div>
     )
 }
