@@ -1,60 +1,101 @@
 {
-  "products": [
-   {
-    "product_sale": [
-      {
-        "id": 1,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "800.000",
-        "p": "Túi Sách Cá Sấu"
-      },
-      {
-        "id": 8,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "800.000",
-        "p": "Túi Sách Cá Sấu"
-      },
-      {
-        "id": 7,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "800.000",
-        "p": "Túi Sách Cá Sấu"
-      },
-      {
-        "id": 6,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "800.000",
-        "p": "Túi Sách Cá Sấu"
-      }
-    ],
-    "product_new": [
-      {
-        "id": 2,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "800.000",
-        "p": "Túi Sách Cá Sấu"
-      },
-      {
-        "id": 3,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "1.745.000",
-        "p": "Túi Sách Nhỏ"
-      },
-      {
-        "id": 4,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "666.000",
-        "p": "Túi Sách To"
-      },
-      {
-        "id": 5,
-        "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
-        "price": "745.000",
-        "p": "Túi Sách Nhỏ"
-      }
-    ]
-   }
-   
+  
+  "product_new": [
+    {
+      "id": 2,
+      "img": "https://product.hstatic.net/1000003969/product/tim_txn738_2_20231005104956_1f5aae4a29d44f63a9ec097d58080eb5_grande.jpeg",
+      "p": "Túi Sách Nhỏ Handle",
+      "price": 745.000
+    },
+    {
+      "id": 3,
+      "img": "https://product.hstatic.net/1000003969/product/cam_jndng016_1_20230918201415_246d651095d942959e81ed89eab36c29_grande.jpeg",
+      "p": "Túi Sách Trung Hobo Cozy",
+      "price": 745.000
+    },
+    {
+      "id": 4,
+      "img": "https://product.hstatic.net/1000003969/product/bac_bl159_2_20231005105145_e32a6a3631754e6e8e64ae08c1c0721b_grande.jpeg",
+      "p": "Balo Mini Cozy",
+      "price": 745.000
+    },
+    {
+      "id": 5,
+      "img": "https://product.hstatic.net/1000003969/product/kem_txt304_8_20231002112823_f56b79e83926447c9911a5a9d719ff72_grande.jpeg",
+      "p": "Đầm Caro 2 Dây Smocking",
+      "price": 745.000
+    }
+  ],
+  "product_goiy": [
+    {
+      "id": 8,
+      "img": "https://product.hstatic.net/1000003969/product/den_bb03080_2_d7a5c6d8a5904584857589b0fe0b2adc.jpg",
+      "price": 745.000,
+      "p": "Balo Chân Không Cách Điệu"
+    },
+    {
+      "id": 9,
+      "img": "https://product.hstatic.net/1000003969/product/nau_txl086_18_20230523122329_7888cf675e204c96b72f239e2ed4ca57.jpeg",
+      "price": 745.000,
+      "p": "Balo Teenis Club"
+    },
+    {
+      "id": 10,
+      "img": "https://product.hstatic.net/1000003969/product/den_bl111_4_e3eb42e5910f4022bdf87004e6227878.jpg",
+      "price": 745.000,
+      "p": "Balo Satchel Trang Trí Khóa"
+    },
+    {
+      "id": 11,
+      "img": "https://product.hstatic.net/1000003969/product/den_bl156_10_20230516114834_45008589bd604236b903db3b02f584dd.jpeg",
+      "price": 745.000,
+      "p": "Balo Trang Trí Logo Cách Điệu"
+    }
+  ],
+  "product_sale": [
+    {
+      "id": 1,
+      "img": "https://file.hstatic.net/1000003969/file/h1__1__d62a8f5a69b54b72855612e2fefe52d2.jpg",
+      "p": "GIÀY SANDAL"
+    },
+    {
+      "id": 8,
+      "img": "https://file.hstatic.net/1000003969/file/h2__1__f8b39d4eca95407eb7bc6ba4a471fcc1.jpg",
+      "p": "TÚI SÁCH NHỎ"
+    },
+    {
+      "id": 7,
+      "img": "https://file.hstatic.net/1000003969/file/h3__1__bd48af48cac349e19cb71396aa922c72.jpg",
+      "p": "QUẦN THỜI TRANG"
+    }
+  ],
+  "product_footer": [
+    {
+      "id": 12,
+      "img": "https://theme.hstatic.net/1000003969/1000659821/14/instagram1.jpg?v=5428"
+    },
+    {
+      "id": 13,
+      "img": "https://theme.hstatic.net/1000003969/1000659821/14/instagram2.jpg?v=5428"
+    },
+    {
+      "id": 14,
+      "img": "https://theme.hstatic.net/1000003969/1000659821/14/instagram3.jpg?v=5428"
+    },
+    {
+      "id": 15,
+      "img": "https://theme.hstatic.net/1000003969/1000659821/14/instagram4.jpg?v=5428"
+    }
+  ],
+  "product_footer2": [
+    {
+      "id": 12,
+      "img": "https://file.hstatic.net/1000003969/file/chikh_ce44b1a9f11b4cbda1d4d319967d7932.jpg"
+    },
+    {
+      "id": 13,
+      "img": "https://file.hstatic.net/1000003969/file/700x330_73f0094bbba041ea9ec4eccfc23ccbaa.jpg"
+    }
   ],
   "comments": [
     {

@@ -1,6 +1,6 @@
-import logo from '../page/img/header/logo.svg'
-import user from './img/header/user.png'
-import cart from './img/header/cart.png'
+import logo from '../img/header/logo.svg'
+import user from '../img/header/user.png'
+import cart from '../img/header/cart.png'
 
 
 const Header = () => {
